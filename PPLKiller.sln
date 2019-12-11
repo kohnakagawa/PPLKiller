@@ -6,18 +6,26 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "PPLKiller", "PPLKiller\PPLK
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|ARM64 = Debug|ARM64
 		Debug|Win32 = Debug|Win32
 		Debug|x64 = Debug|x64
+		Release|ARM64 = Release|ARM64
 		Release|Win32 = Release|Win32
 		Release|x64 = Release|x64
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{45BD58A5-1711-417F-99E7-B640C56F8009}.Debug|ARM64.ActiveCfg = Debug|ARM64
+		{45BD58A5-1711-417F-99E7-B640C56F8009}.Debug|ARM64.Build.0 = Debug|ARM64
+		{45BD58A5-1711-417F-99E7-B640C56F8009}.Debug|ARM64.Deploy.0 = Debug|ARM64
 		{45BD58A5-1711-417F-99E7-B640C56F8009}.Debug|Win32.ActiveCfg = Debug|Win32
 		{45BD58A5-1711-417F-99E7-B640C56F8009}.Debug|Win32.Build.0 = Debug|Win32
 		{45BD58A5-1711-417F-99E7-B640C56F8009}.Debug|Win32.Deploy.0 = Debug|Win32
 		{45BD58A5-1711-417F-99E7-B640C56F8009}.Debug|x64.ActiveCfg = Debug|x64
 		{45BD58A5-1711-417F-99E7-B640C56F8009}.Debug|x64.Build.0 = Debug|x64
 		{45BD58A5-1711-417F-99E7-B640C56F8009}.Debug|x64.Deploy.0 = Debug|x64
+		{45BD58A5-1711-417F-99E7-B640C56F8009}.Release|ARM64.ActiveCfg = Release|ARM64
+		{45BD58A5-1711-417F-99E7-B640C56F8009}.Release|ARM64.Build.0 = Release|ARM64
+		{45BD58A5-1711-417F-99E7-B640C56F8009}.Release|ARM64.Deploy.0 = Release|ARM64
 		{45BD58A5-1711-417F-99E7-B640C56F8009}.Release|Win32.ActiveCfg = Release|Win32
 		{45BD58A5-1711-417F-99E7-B640C56F8009}.Release|Win32.Build.0 = Release|Win32
 		{45BD58A5-1711-417F-99E7-B640C56F8009}.Release|Win32.Deploy.0 = Release|Win32
@@ -27,5 +35,8 @@ Global
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {21FE7E75-62A9-4BBD-BE8E-4A7E876F670E}
 	EndGlobalSection
 EndGlobal

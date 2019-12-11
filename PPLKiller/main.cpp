@@ -3,11 +3,11 @@
 #include <stdarg.h>
 
 // Exclude false positive matches in the KPROCESS/Pcb header
-#ifdef _M_AMD64
+//#ifdef _M_AMD64
 #define PS_SEARCH_START				0x600
-#else
-#define PS_SEARCH_START				0x200
-#endif
+//#else
+//#define PS_SEARCH_START				0x200
+//#endif
 
 extern "C"
 {
@@ -103,6 +103,14 @@ Log(
 	Message[N] = '\0';
 	vDbgPrintExWithPrefix("[PPLKILLER] ", DPFLTR_IHVDRIVER_ID, DPFLTR_ERROR_LEVEL, Message, VaList);
 	va_end(VaList);
+}
+
+NTSTATUS
+FindXtaCachePid(
+	_Out_ PULONG Pid,
+	_In_ UNICODE_STRING 
+) {
+	PSYSTEM_PROCESS_INFORMATION SystemProcessInfo = nullptr, Entry;
 }
 
 // This can be done faster and in fewer lines of code by ghetto-disassembling
