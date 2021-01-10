@@ -1,3 +1,7 @@
+NOTE:
+
+This fork is the patched version of PPLKiller that can run in Windows 10 on ARM.
+
 # Overview
 PPLKiller ('Protected Processes Light killer', not 'people killer') is a kernel mode driver that disables Protected Process Light protection on all running processes.
 
